@@ -1,5 +1,15 @@
+import { Routes, Route } from "react-router-dom";
+
+import Start from "./pages/Start";
+import Home from "./pages/Home";
+
+import "./global.css";
+
 export default function App() {
     return (
-        <h1>zoink...</h1>
+        <Routes>
+            <Route path="/" element={<Start/>}/>
+            <Route path="/home" element={<Home/>}/>
+        </Routes>
     );
 }
