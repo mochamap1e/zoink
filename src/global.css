@@ -8,3 +8,10 @@ body {
 h1, p {
     margin: 0;
 }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}

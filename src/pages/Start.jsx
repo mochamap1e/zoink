@@ -42,7 +42,7 @@ export default function Start() {
             />
 
             <motion.div 
-                className={styles.container}
+                className={`container ${styles.container}`}
                 animate={clicked ? { opacity: 0 } : { opacity: 1 }}
             >
                 <motion.h1
